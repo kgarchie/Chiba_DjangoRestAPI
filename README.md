@@ -4,34 +4,34 @@
 
 ## Getting Started
 
-This API will be hosted soon on some server somewhere and therefore making this unnecessary. <br>
+This API will be hosted soon on some server somewhere and therefore making this unnecessary.  
 Indulge only to have fun and to learn or to extend the functionality.
 
 ### Steps
 
-<ol>
-<li><a href="#1">Download and Install Python</a></li>
-<li><a href="#2">Set Up Workspace Folder</a></li>
-<li><a href="#3">Clone this Repo</a></li>
-<li><a href="#4">Set Up a Virtual Environment</a></li>
-<li><a href="#5">Set Up Django and Other Dependencies</a></li>
-<li><a href="#6">Make Migrations</a></li>
-<li><a href="#7">Create a Superuser</a></li>
-<li><a href="#8">Run Server</a></li>
-<li><a href="#9">Test at LocalHost</a></li>
-</ol>
+1. [Download and Install Python](#download-and-install-python)
+1. [Set Up Workspace Folder](#set-up-workspace-folder)
+1. [Clone this Repo](#clone-this-repo)
+1. [Set Up a Virtual Environment](#set-up-a-virtual-environment)
+1. [Set Up Django and Other Dependencies](#set-up-django-and-other-dependencies)
+1. [Make Migrations](#make-migrations)
+1. [Create a Superuser](#create-a-superuser-optional)
+1. [Run Server](#run-server)
+1. [Test at LocalHost](#test-at-localhost)
 
-<h3 id="1">Download and Install Python</h3>
+
+### Download and Install Python
 You need python as the base interpreter. Download and install it from [Here](https://www.python.org/downloads/)
-<h3 id="2">Set Up Workspace Folder</h3>
-Create a new folder in a memorable place - I'll call mine `ichiba`<br>
-We'll use the desktop for this demo; you should too, should you get lost. <br>
-Open the created folder in the terminal; should look something like this <br>
-<code>
-C:\Users\<username>\Desktop\ichiba>
-</code>
 
-<h3 id="3">Clone this Repo</h3>
+### Set Up Workspace Folder
+Create a new folder in a memorable place - I'll call mine `ichiba`  
+We'll use the desktop for this demo; you should too, should you get lost.  
+Open the created folder in the terminal; should look something like this  
+```
+C:\Users\<username>\Desktop\ichiba>
+```
+
+### Clone this Repo
 Type in `git clone https://github.com/kgarchie/ichiba_DjangoRestAPI.git .` to clone this repo into that folder. Note
 the `.` at the end
 
@@ -39,7 +39,7 @@ the `.` at the end
 git clone https://github.com/kgarchie/ichiba_DjangoRestAPI.git
 ```
 
-<h3 id="4">Set Up a Virtual Environment</h3>
+### Set Up a Virtual Environment
 Set up a virtual environment by using the following commands; This will work only if python was added
 to [Path](https://datatofish.com/add-python-to-windows-path/).
 
@@ -47,7 +47,7 @@ to [Path](https://datatofish.com/add-python-to-windows-path/).
 python -m venv venv
 ```
 
-This will create a folder named `venv` in the current folder which is `ichiba`. <br>
+This will create a folder named `venv` in the current folder which is `ichiba`.   
 Activate the virtual environment so that we can install `django`
 
 ```shell
@@ -65,18 +65,18 @@ To fix this error:-
   about [Set-Execution Policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2)
 
 **Note:** You will need to restart the Terminal(s) for changes to take effect. Re-Open the `ichiba` folder again in
-terminal as described <a href="#3">above</a> to continue with this tutorial. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **You will also need to activate the virtual environment again as shown <a href="#4">Here</a>**
+terminal as described [above](#set-up-workspace-folder) to continue with this tutorial.  
+**You will also need to activate the virtual environment again as shown [Here](#set-up-a-virtual-environment)**
 
-<h3 id="5">Set Up Django and Other Dependencies</h3>
-Set up `django` and other dependencies like `django-restframework` using the command below. <br>
+### Set Up Django and Other Dependencies
+Set up `django` and other dependencies like `django-restframework` using the command below.  
 Make sure `requirements.txt` is present in `ichiba`.
 
 ```shell
 pip install -r requirements.txt
 ```
 
-<h3 id="6">Make Migrations</h3>
+### Make Migrations
 Make the migrations - initialises the db
 
 ```shell
@@ -89,7 +89,7 @@ Migrate - creates the tables in db
 python manage.py migrate
 ```
 
-<h3 id="7">Create a Superuser (Optional)</h3>
+### Create a Superuser (Optional)
 Create a superuser using the command below
 
 ```shell
@@ -100,11 +100,11 @@ Follow the prompts to create the username, email and password
 
 **Note:** Password input is not actually shown. It will remain blank even when keying it in; it's designed that way to hide
 the password.
-<h3 id="8">Run Server</h3>
+### Run Server
 Run the server using the command below
 ```shell
 python manage.py runserver
 ```
 
-<h3 id="9">Test at LocalHost</h3>
+### Test at LocalHost
 Open your browser at the shown link in the terminal, typically `127.0.0.1:8000`
