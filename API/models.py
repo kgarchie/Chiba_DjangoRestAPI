@@ -5,7 +5,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.db.models import Avg
 
-host_url = 'http://127.0.0.1:8000'
+host_url = 'http://bosireallan.pythonanywhere.com' # should make as environment variable
 
 
 # Create your models here.
