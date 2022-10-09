@@ -1,5 +1,5 @@
 Set Up DB - partially done : Improvements needed
-Set Up Serializers
-Set Up APIs
-Set Up Special Functions(If any - Might be needed to return absolute URL if HyperLinked classes is not used)
-Make Migrations && Migrate
+Set Up Serializers - done : Aware of new needed features and logic
+Set Up APIs - done : Incomplete feature set
+Set Up Special Functions(If any - Might be needed to return absolute URL if HyperLinked classes is not used) : done
+Make Migrations && Migrate : done
