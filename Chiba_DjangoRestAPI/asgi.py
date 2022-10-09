@@ -1,5 +1,5 @@
 """
-ASGI config for ichiba_DjangoRestAPI project.
+ASGI config for Chiba_DjangoRestAPI project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ichiba_DjangoRestAPI.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Chiba_DjangoRestAPI.settings')
 
 application = get_asgi_application()

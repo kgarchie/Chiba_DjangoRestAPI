@@ -1,6 +1,4 @@
-# ichiba
-
-#### ~slogan
+# Chiba
 
 ## Getting Started
 
@@ -24,19 +22,19 @@ Indulge only to have fun and to learn or to extend the functionality.
 You need python as the base interpreter. Download and install it from [Here](https://www.python.org/downloads/)
 
 ### Set Up Workspace Folder
-Create a new folder in a memorable place - I'll call mine `ichiba`  
+Create a new folder in a memorable place - I'll call mine `Chiba`  
 We'll use the desktop for this demo; you should too, should you get lost.  
 Open the created folder in the terminal; should look something like this  
 ```
-C:\Users\<username>\Desktop\ichiba>
+C:\Users\<username>\Desktop\Chiba>
 ```
 
 ### Clone this Repo
-Type in `git clone https://github.com/kgarchie/ichiba_DjangoRestAPI.git .` to clone this repo into that folder. Note
+Type in `git clone https://github.com/kgarchie/Chiba_DjangoRestAPI.git .` to clone this repo into that folder. Note
 the `.` at the end
 
 ```shell
-git clone https://github.com/kgarchie/ichiba_DjangoRestAPI.git
+git clone https://github.com/kgarchie/Chiba_DjangoRestAPI.git
 ```
 
 ### Set Up a Virtual Environment
@@ -47,7 +45,7 @@ to [Path](https://datatofish.com/add-python-to-windows-path/).
 python -m venv venv
 ```
 
-This will create a folder named `venv` in the current folder which is `ichiba`.   
+This will create a folder named `venv` in the current folder which is `Chiba`.   
 Activate the virtual environment so that we can install `django`
 
 ```shell
@@ -64,13 +62,13 @@ To fix this error:-
 - (Optional) Read more
   about [Set-Execution Policy](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2)
 
-**Note:** You will need to restart the Terminal(s) for changes to take effect. Re-Open the `ichiba` folder again in
+**Note:** You will need to restart the Terminal(s) for changes to take effect. Re-Open the `Chiba` folder again in
 terminal as described [above](#set-up-workspace-folder) to continue with this tutorial.  
 **You will also need to activate the virtual environment again as shown [Here](#set-up-a-virtual-environment)**
 
 ### Set Up Django and Other Dependencies
 Set up `django` and other dependencies like `django-restframework` using the command below.  
-Make sure `requirements.txt` is present in `ichiba`.
+Make sure `requirements.txt` is present in `Chiba`.
 
 ```shell
 pip install -r requirements.txt
