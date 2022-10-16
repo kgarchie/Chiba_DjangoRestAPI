@@ -10,7 +10,7 @@ class RecipeSerializer(serializers.ModelSerializer):
             'id',
             'title',
             'serve_people_num',
-            'author',
+            'get_authors',
             'date',
             'recipe_layout',
             'recipe_intro',
