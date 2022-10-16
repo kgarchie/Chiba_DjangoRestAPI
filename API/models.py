@@ -7,6 +7,8 @@ from django.db.models import Avg
 from django.utils.text import slugify
 
 host_url = 'http://bosireallan.pythonanywhere.com'  # should make as environment variable
+
+
 # host_url = 'http://127.0.0.1:8000'
 
 
