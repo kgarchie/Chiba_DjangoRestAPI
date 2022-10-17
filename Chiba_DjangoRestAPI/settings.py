@@ -47,7 +47,8 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://vue-chiba.vercel.app',
-    # 'https://chiba.one',
+    'https://chiba.one',
+    'https://www.chiba.one',
     'https://vue-chiba-kgarchie.vercel.app',
     'http://127.0.0.1:5173',
 ]
